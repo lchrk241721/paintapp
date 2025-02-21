@@ -1,0 +1,63 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .ad-side {
+    width: 120px;
+    height: 600px;
+    margin: 0 20px;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .paint-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #paintCanvas {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    cursor: crosshair;
+  }
+  
+  .tools {
+    margin-top: 15px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .tools input, .tools button {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    background-color: #6200ea;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .tools input:hover, .tools button:hover {
+    background-color: #3700b3;
+  }
